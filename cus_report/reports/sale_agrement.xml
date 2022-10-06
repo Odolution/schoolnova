@@ -39,4 +39,22 @@
             paperformat="cus_report.report_post_view_paper"
         />
 
+    <report
+       string="Invoices"
+       id="account.report_invoice_with_payments"
+       model="account.move"
+       report_type="qweb-pdf"
+       name="cus_report.admission_challan"
+       file="cus_report.admission_challan"
+        />
+<!--    <report-->
+<!--            id="report_admission_challan"-->
+<!--            model="account.move"-->
+<!--            report_type="qweb-pdf"-->
+<!--            string="Admission Challan"-->
+<!--            name="cus_report.admission_challan"-->
+<!--            file="cus_report.admission_challan"-->
+<!--            paperformat="cus_report.report_post_view_paper"-->
+<!--        />-->
+
 </odoo>
